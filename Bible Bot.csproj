@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <RootNamespace>Bible_Bot</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Discord.Net" Version="2.1.1"/>
+    <PackageReference Include="Quartz" Version="3.0.7"/>
+    <PackageReference Include="Google.Apis.Sheets.v4" Version="1.43.0.1839"/>
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="3.1.1"/>
+  </ItemGroup>
+</Project>
